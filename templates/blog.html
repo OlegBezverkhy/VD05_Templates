@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+    {% block title %}
+        <p class="blog-post-meta offset-lg-3">Дата поста: {{context.b_date}}, Автор: {{context.b_author}}</p>
+    {% endblock %}
+    {% block content %}
+        <div class="card" style="width: 50rem;">
+            <{{context.b_href|safe}}>
+            <div class="card-body">
+                {{context.b_text|safe}}
+                <a href="/" class="btn btn-primary">Вернуться</a>
+            </div>
+        </div>
+    {% endblock %}

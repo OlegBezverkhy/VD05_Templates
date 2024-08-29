@@ -1,0 +1,52 @@
+    <!-- Шапка сайта -->
+{% extends 'base.html'%}
+
+    {% block title %}
+
+    {% endblock%}
+
+
+    <!-- Основной контент -->
+          {% block content%}
+            <!-- Список блогов -->
+
+                <!-- Блог 1 -->
+                <article class="mb-4">
+                    <div class="card">
+                        <img src="../static/image/blog1.jpg" class="card-img-top" alt="Изображение блога">
+                        <div class="card-body">
+                            <h3 class="card-title">Знакомство: Это я - немецкая овчарка Ларс</h3>
+                            <p class="card-text">Приветствую вас, друзья!
+                                Меня зовут Ларс, и я — немецкая овчарка. В этом блоге я расскажу вам о своей жизни,
+                                поделюсь мыслями о мире и расскажу о моих приключениях. Жизнь собаки полна ярких
+                                событий, и мне не терпится поделиться своими историями!</p>
+                            <a href="/blog1/" class="btn btn-primary">Читать далее</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Блог 2 -->
+                <article class="mb-4">
+                    <div class="card">
+                        <img src="../static/image/blog2.jpg" class="card-img-top" alt="Изображение блога">
+                        <div class="card-body">
+                            <h2 class="card-title">Моя жизнь: Игры и забавы</h2>
+                            <p class="card-text">"Я, Ларс, черная длинношерстная немецкая овчарка, обожаю играть!
+                                Каждый день для меня — это новое приключение, полное радости и веселья. Позвольте рассказать вам о моих любимых играх</p>
+                            <a href="/blog2/" class="btn btn-primary">Читать далее</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Блог 3 -->
+                <article class="mb-4">
+                    <div class="card">
+                        <img src="../static/image/blog3.jpg" class="card-img-top" alt="Изображение блога">
+                        <div class="card-body">
+                            <h2 class="card-title">Первый снег: Мои впечатления</h2>
+                            <p class="card-text">Сегодня я хочу рассказать вам об одном из самых волнующих моментов в моей жизни — моем первом знакомстве со снегом. Это был невероятный день, который я запомню навсегда!</p>
+                            <a href="/blog3/" class="btn btn-primary">Читать далее</a>
+                        </div>
+                    </div>
+                </article>
+{% endblock %}

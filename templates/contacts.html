@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+    {% block title %}
+        <p class="blog-post-meta offset-lg-3">Дата поста: {{context.b_date}}, Автор: {{context.b_author}}</p>
+    {% endblock %}
+    <!-- Основной контент -->
+                 {% block content %}
+                <div class="card" style="width: 50rem;">
+                    <img src="../static/image/contacts.jpg" alt="Мы" class="post-image mb-4">
+                    <div class="card-body">
+                        <h4>Пишите, звоните, посылайте переводы:</h4>
+                        <p>mail@mail.ru</p>
+                        <p>tel: 223322</p>
+                        <a href="/" class="btn btn-primary">Вернуться</a>
+                    </div>
+                </div>
+ {% endblock %}

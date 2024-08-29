@@ -1,0 +1,29 @@
+body {
+    background-image: url('../image/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+background-color: #003333
+}
+
+.blog-post-meta {
+    color: white;
+    text-align: left;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.content {
+    margin-top: 20px;
+    color: white;
+    background-color: #fffff;
+}
+footer{
+    background-color: #003333
+}
